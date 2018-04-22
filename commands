@@ -1,0 +1,255 @@
+ 1  python3
+    2  ls
+    3  python3 hello.py 
+    4  git clone https://github.com/3leylakockece3/ilk.git
+    5  sudo apt install git
+    6  git clone https://github.com/3leylakockece3/ilk.git
+    7  ls
+    8  cd ilk
+    9  python3 first.py
+   10  git add first.py 
+   11  git config --global user.email"leylakockece@gmail.com"
+   12  git config --global user.name"3leylakockece3"
+   13  git commit -m first.py
+   14  git add first.py 
+   15  git config --global user.name "3leylakockece3"
+   16  git config --global user.email "leylakockece@gmail.com"
+   17  git commit -m first.py
+   18  git push -u origin master
+   19  git add first.py 
+   20  git config --global user.email "leylakockece@gmail.com"
+   21  git config --global user.name "3leylakockece3"
+   22  git commit -m first.py
+   23  git push -u origin master
+   24  ls
+   25  cd ..
+   26  ls
+   27  env
+   28  ls && cd /etc
+   29  ls && cd/etc
+   30  abc || cd/home
+   31  abc||cd/home
+   32  cd ..
+   33  abc||cd/home
+   34  abc || cd/home
+   35  abc ||cd/home
+   36  abc ||cd/Belgeler
+   37  abc ||cd/Desktop
+   38  abc ||cd /Desktop
+   39  abc || cd /Desktop
+   40  ls --help
+   41  ls --version
+   42  help --cd
+   43  ls --cd
+   44  whatis echo
+   45  whatis ls
+   46  whatis cd
+   47  whatis whoami
+   48  apropos printf
+   49  mandb
+   50  lsb_release-a
+   51  lsb_release -a
+   52  cat /etc/*release
+   53  uname -a
+   54  cal
+   55  cal 27 07 1997
+   56  cal 1997 07 27
+   57  cal 27 07 1997
+   58  cal 07 27 1997
+   59  cal 7 1997
+   60  cal 7 27 1997
+   61  cal 2018
+   62  date
+   63  hostname
+   64  w
+   65  who
+   66  whoami
+   67  who -b
+   68  who -r
+   69  uptime
+   70  whereis config
+   71  whereis etc
+   72  whereis 40_custom
+   73  which 40_custom
+   74  quit()
+   75  locate config
+   76  locate etc
+   77  dmidecode -t system
+   78  sudo dmidecode -t system
+   79  sudo dmidecode -t 4
+   80  sudo dmidecode -t 0
+   81  sudo dmidecode -t 28
+   82  sudo dmidecode -t 29
+   83  sudo dmidecode -t 31
+   84  cat /proc/meminfo
+   85  cat /proc/cpuinfo
+   86  fdisk -l
+   87  sudo fdisk -l
+   88  df -h
+   89  du /etc/config
+   90  du /etc
+   91  du -ha /etc
+   92  free -m
+   93  stat
+   94  stat -f
+   95  stat /etc
+   96  history
+   97  du /etc
+   98  history du /etc
+   99  history 90
+  100  history du -ha /etc
+  101  history 10
+  102  history echo $HISTSIZE
+  103  echo $HISTSIZE
+  104  cd desktop
+  105  cd Desktop
+  106  touch cat.txt
+  107  cat > test
+  108  cat.txt >> test
+  109  cat cat.txt >> test
+  110  cat cat.txt
+  111  cat > test
+  112  touch file_1
+  113  cat file_1 >> "hey"
+  114  cat file_1 > "hey"
+  115  cat > file_1
+  116  cat file_
+  117  cat file_1
+  118  touch file_1
+  119  cat > file_1
+  120  cat >> file_1
+  121  cat file_1
+  122  rm file_1
+  123  cd ..
+  124  echo "you'll be a master of gnu/linux B)"
+  125  echo ls
+  126  echo 'ls'
+  127  echo "ls"
+  128  echo 'ls'
+  129  echo echo
+  130  cd Desktop
+  131  touch filea
+  132  touch fileb
+  133  cat > fiela
+  134  rm fiela
+  135  cat > filea
+  136  cat > fileb
+  137  paste filea fileb
+  138  rm filea && rm fileb
+  139  cd ..
+  140  find -ctime+7
+  141  find /etc -ctime + 7
+  142  find /etc perm 755
+  143  find /etc -name *apache*
+  144  sudo find /etc -name *apache*
+  145  sudo finf /etc perm *755*
+  146  sudo finf /etc perm 755
+  147  sudo find /etc perm 755
+  148  cd Desktop
+  149  touch ayse
+  150  cat > ayse
+  151  cat ayse
+  152  shred -n 10 -v ayse
+  153  cat ayse
+  154  shred -uv test
+  155  shred -uv ayse
+  156  touch example
+  157  touch saöple
+  158  rm saöple
+  159  touch sample
+  160  touch test
+  161  tar -cf file.tar example sample test
+  162  ls
+  163  rm example
+  164  rm sample
+  165  rm test
+  166  tar xvf file.tar
+  167  ls
+  168  rm test
+  169  rm file.tar
+  170  gzip example
+  171  bzip2 sample
+  172  gunzip example .gz
+  173  bunzip2 sample.bz2
+  174  rm example
+  175  rm sample
+  176  umask
+  177  touch users.txt
+  178  rm users.txt
+  179  touch users
+  180  rm touch users
+  181  touch gizli
+  182  chattr +i gizli
+  183  chattr +i gizli.txt
+  184  rm gizli
+  185  touch gizli
+  186  chattr +i gizli
+  187  sudo chattr +i gizli
+  188  cat gizli
+  189  rm gizli
+  190  lsattr
+  191  sudo chattr -i gizli
+  192  rm gizli
+  193  cat /etc/shadow
+  194  sudo cat /etc/shadow
+  195  id ayse
+  196  cd ..
+  197  ps
+  198  ps tree
+  199  pstree
+  200  pid
+  201  pstree -p
+  202  pstree 1501
+  203  pstree ayse
+  204  top
+  205  kill firefox
+  206  firefox bg
+  207  kill -9 firefox
+  208  pid firefox
+  209  firefox -p
+  210  pstree || grep firefox
+  211  grep firefox
+  212  kill firefox
+  213  pgrep firefox
+  214  kill -9 4899
+  215  cfdisk
+  216  sudo cfdisk
+  217  fdisk -l
+  218  sudo fdisk -l
+  219  runlevel
+  220  ,ls rc*.*
+  221  ls rc*.*
+  222  ls rc *.*
+  223  ls rc*.*
+  224  ls rc*
+  225  ls rc*.
+  226  sysv-rc-conf
+  227  sudo apt install sysv-rc-conf
+  228  sysv-rc-conf
+  229  sudo sysv-rc-conf
+  230  sudo apt-get install bleachbit
+  231  apt-get autoclean
+  232  sudo apt-get autoclean
+  233  sudo apt-get autoremove
+  234  showid
+  235  show id
+  236  id
+  237  ip
+  238  showip
+  239  show ip
+  240  ip addr show
+  241  nslookup
+  242  netstat
+  243  route -n
+  244  ifconfig
+  245  iwconfig
+  246  whois google.com.tr
+  247  sudo apt install whois
+  248  whois google.com.tr
+  249  whois onedio.com.tr
+  250  wget -r https://rbt.asia/g/thread/63894813
+  251  apt-get autoclean
+  252  sudo apt-get autoclean
+  253  sudo apt-get autoremove
+  254  history
+
